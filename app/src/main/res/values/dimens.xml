@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="note_head_text">25sp</dimen>
+    <dimen name="note_description_text">15sp</dimen>
+    <dimen name="note_date_text">15sp</dimen>
+    <dimen name="padding_default">5dp</dimen>
+    <dimen name="margin_default">5dp</dimen>
+    <dimen name="about_icon_size">150dp</dimen>
+</resources>

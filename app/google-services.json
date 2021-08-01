@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "376602348238",
+    "project_id": "kpah-notes",
+    "storage_bucket": "kpah-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376602348238:android:a2cb0b7cd297d22ab21e9f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376602348238-gpfn290d1o4kic1k43nn5gn3lo3jtf0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "872f3700e20f74332c1e1693c740c829d6b6a49c"
+          }
+        },
+        {
+          "client_id": "376602348238-6v4hp4hfphejfrneg49c2c9ui095jpcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpa_8RZ2yjA-3pwyR7g65JiaTtRT29Rm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376602348238-6v4hp4hfphejfrneg49c2c9ui095jpcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

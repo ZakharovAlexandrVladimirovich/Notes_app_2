@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDBA6">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_default"
+        android:background="@drawable/item_note_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_default">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fragment_note_details_name"
+            style="@style/Note.Head"
+            android:textSize="@dimen/note_head_text"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Headline" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/fragment_note_details_date"
+            app:layout_constraintTop_toBottomOf="@id/fragment_note_details_name">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/fragment_note_details_description"
+                style="@style/Note.Description"
+                tools:text="Description" />
+
+        </ScrollView>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fragment_note_details_date"
+            style="@style/Note.Date"
+            android:layout_gravity="bottom"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="Date" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

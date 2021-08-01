@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Note" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="Note.Head">
+
+        <item name="android:textSize">@dimen/note_head_text</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/note_description_bg</item>
+
+
+    </style>
+
+    <style name="Note.Description">
+
+        <item name="android:textSize">@dimen/note_description_text</item>
+
+    </style>
+
+    <style name="Note.Date">
+
+        <item name="android:background">@drawable/note_date_bg</item>
+        <item name="android:textSize">@dimen/note_date_text</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+    </style>
+
+</resources>

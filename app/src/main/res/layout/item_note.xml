@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFDBA6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:background="@drawable/item_note_bg"
+            android:checkable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_default">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_note_name"
+                style="@style/Note.Head"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Headline" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_note_description"
+                style="@style/Note.Description"
+                android:ellipsize="end"
+                android:maxLines="3"
+                tools:text="Description" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_note_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                tools:text="Date" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>

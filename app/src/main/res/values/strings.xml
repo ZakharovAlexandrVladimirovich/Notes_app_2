@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="confirm_edit_option">confirm_option</string>
+    <string name="my_notes_option">My Notes</string>
+    <string name="settings_option">Settings</string>
+    <string name="about_option">About</string>
+    <string name="greetings_drawer">Hello NoName</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="note_app">Note App</string>
+    <string name="hint_headline">Headline</string>
+    <string name="hint_description">Description</string>
+    <string name="confirm_option">Settings</string>
+    <string name="edit_note_option">Edit</string>
+    <string name="delete_note_option">Delete</string>
+    <string name="search_option">Search</string>
+    <string name="add_note_option">Add note</string>
+    <string name="clear_all_option">Clear all</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_fragment_dialog">Edit field</string>
+    <string name="cancel_editing_note_field">cancel</string>
+    <string name="confirm_editing_note_field">confirm</string>
+
+</resources>
